@@ -26,7 +26,7 @@ Router Scanner Pro adalah aplikasi pemindaian router berperforma tinggi yang dir
 
 ## 🖥️ 5. Monitor Informasi Router (Lengkap)
 
-Aplikasi menampilkan informasi router secara detail melalui tabel utama (StringGrid), dengan kolom sebagai berikut:
+Aplikasi menampilkan informasi router secara detail melalui tabel utama dengan kolom sebagai berikut:
 
 | Kolom                         | Keterangan                                                  |
 | ----------------------------- | ----------------------------------------------------------- |
