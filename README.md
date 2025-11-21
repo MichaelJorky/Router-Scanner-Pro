@@ -113,7 +113,7 @@ File daftar IP yang digunakan harus berupa `.txt`, contoh:
 
 ## ⚡ Performa
 
-Dengan dukungan multi-thread hingga 40 thread (atau lebih tergantung spesifikasi), pemindaian dapat berjalan sangat cepat dan efisien tanpa membebani sistem operasi.
+Dengan dukungan multi-thread hingga 50 thread (atau lebih tergantung spesifikasi), pemindaian dapat berjalan sangat cepat dan efisien tanpa membebani sistem operasi.
 
 ---
 
