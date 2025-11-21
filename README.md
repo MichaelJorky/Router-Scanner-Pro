@@ -24,20 +24,53 @@ Router Scanner Pro adalah aplikasi pemindaian router berperforma tinggi yang dir
 * Mode pemindaian melalui relay node eksternal.
 * Berguna untuk routing tertentu, bypass pembatasan, atau mode scanning anonim.
 
-### 🖥️ 5. Monitor Informasi Router
+Berikut **ulangannya untuk bagian nomor 5 (Monitor Informasi Router)**, sudah saya sesuaikan **100%** dengan daftar kolom yang kamu berikan dari `StringGrid.Cells[...]`.
 
-Untuk setiap alamat IP, aplikasi menampilkan:
+Kamu bisa langsung tempel ke README sebagai pengganti bagian sebelumnya.
 
-| Informasi                     | Keterangan                            |
-| ----------------------------- | ------------------------------------- |
-| **IP Address**                | Alamat IP target yang sedang dipindai |
-| **Port**                      | Port yang diuji                       |
-| **Time (ms)**                 | Waktu respon dalam milidetik          |
-| **Status**                    | Koneksi berhasil/gagal                |
-| **Device Type / Server Name** | Identifikasi perangkat atau server    |
-| **Authorization**             | Jenis proteksi atau kredensial router |
-| **BSSID**                     | MAC Address Access Point              |
-| **ESSID**                     | Nama jaringan Wi-Fi                   |
+---
+
+## 🖥️ 5. Monitor Informasi Router (Lengkap)
+
+Aplikasi menampilkan informasi router secara detail melalui tabel utama (StringGrid), dengan kolom sebagai berikut:
+
+| Kolom                         | Keterangan                                                  |
+| ----------------------------- | ----------------------------------------------------------- |
+| **No**                        | Nomor urut data                                             |
+| **IP Address**                | Alamat IP target yang dipindai                              |
+| **Port**                      | Port yang diuji                                             |
+| **Time (ms)**                 | Waktu respon dalam milidetik                                |
+| **Status**                    | Status koneksi (Success / Failed / Timeout)                 |
+| **Device Type / Server Name** | Identifikasi tipe perangkat atau nama server                |
+| **Authorization**             | Jenis otentikasi (Basic / Digest / Login Page / etc)        |
+| **BSSID**                     | MAC Address Access Point                                    |
+| **ESSID**                     | Nama jaringan Wi-Fi                                         |
+| **Security**                  | Jenis enkripsi Wi-Fi (WPA2, WPA3, Open, dll)                |
+| **WiFi Key**                  | Password Wi-Fi (jika berhasil diambil melalui API tertentu) |
+| **WPS Pin**                   | PIN WPS perangkat                                           |
+| **LAN IP Address**            | IP lokal router (sisi LAN)                                  |
+| **LAN Subnet Mask**           | Subnet mask LAN                                             |
+| **WAN IP Address**            | IP publik atau IP WAN router                                |
+| **WAN Subnet Mask**           | Subnet mask WAN                                             |
+| **WAN Gateway**               | Gateway koneksi WAN                                         |
+| **Domain Name Servers**       | DNS yang digunakan router                                   |
+| **Hostname**                  | Nama host router                                            |
+| **ASN**                       | Autonomous System Number                                    |
+| **ISP Name**                  | Nama ISP penyedia layanan                                   |
+| **Organization Name**         | Nama organisasi pemilik IP                                  |
+| **Connection Type**           | Tipe koneksi (Fiber, Wireless, DSL, dll)                    |
+| **Country Name**              | Nama negara pemilik IP                                      |
+| **Country Code**              | Kode negara (ISO Code)                                      |
+| **State / Province**          | Provinsi / State                                            |
+| **District / Country**        | Kabupaten / Distrik                                         |
+| **City**                      | Kota                                                        |
+| **Postal Code**               | Kode pos lokasi IP                                          |
+| **Latitude**                  | Garis lintang lokasi IP                                     |
+| **Longitude**                 | Garis bujur lokasi IP                                       |
+| **Device MAC Address**        | Alamat MAC perangkat                                        |
+| **Device Serial Number**      | Nomor seri perangkat                                        |
+| **Software Version**          | Versi firmware / aplikasi router                            |
+| **Hardware Version**          | Versi hardware router                                       |
 
 ### 🧭 6. Control Panel Lengkap
 
