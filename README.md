@@ -24,12 +24,6 @@ Router Scanner Pro adalah aplikasi pemindaian router berperforma tinggi yang dir
 * Mode pemindaian melalui relay node eksternal.
 * Berguna untuk routing tertentu, bypass pembatasan, atau mode scanning anonim.
 
-Berikut **ulangannya untuk bagian nomor 5 (Monitor Informasi Router)**, sudah saya sesuaikan **100%** dengan daftar kolom yang kamu berikan dari `StringGrid.Cells[...]`.
-
-Kamu bisa langsung tempel ke README sebagai pengganti bagian sebelumnya.
-
----
-
 ## 🖥️ 5. Monitor Informasi Router (Lengkap)
 
 Aplikasi menampilkan informasi router secara detail melalui tabel utama (StringGrid), dengan kolom sebagai berikut:
